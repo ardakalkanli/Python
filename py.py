@@ -1,8 +1,16 @@
-number = 0
+alfabe = "abcçdefgğhıijklmnoöprsştuüvyzxwq abc"
+tence = input("tence:")
+pastence = ""
 
-while number < 400:
-    if number % 2 == 0 and number >355:
-        print(number)
-        number+= 1
-        
-    else: number += 1
+
+for i in tence:
+    if i in alfabe:
+        newkey = alfabe.index(i) +3
+        pastence += alfabe[newkey]
+    else: print("küçük harflerle, işaretsiz yaz")
+    
+    break
+
+print(pastence)
+
+   

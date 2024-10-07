@@ -49,3 +49,29 @@ def same(m:set,n:set):
     return samethings
 
 print(same(a,b))
+def fibo(a:int):
+    m=1
+    n=1
+    if a==1 or a==2:
+        return 1
+    else: return fibo(a-1) + fibo(a-2)
+dizi=[]
+for i in range(10):
+    dizi.append(fibo(i+1))
+print(dizi)
+
+
+alfabe = "abcçdefgğhıijklmnoöprsştuüvyzxwq abc"
+tence = input("tence:")
+pastence = ""
+
+
+for i in tence:
+    if i in alfabe:
+        newkey = alfabe.index(i) +3
+        pastence += alfabe[newkey]
+    else: print("küçük harflerle, işaretsiz yaz")
+    
+    break
+
+print(pastence)

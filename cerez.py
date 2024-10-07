@@ -21,4 +21,3 @@ while True:
         else:print("burda yok")
     elif choose =="q" or choose=="Q":
         break
-    

@@ -1,1 +1,13 @@
-selamlar efm naber
+"""with open("writing.txt","r") as reading:
+    print(reading.readline().strip(),reading.readline().strip(),reading.readline().strip())"""
+
+"""with open("keyboard.txt", "w") as kontent:
+    kontent.write("Bu dosya yeni oluşturuldu!")"""
+"""okunacak_miktar01024
+    içerik = f.read(okunacak-miktar)
+    while len(içerik)>0:
+        yazılacak.write(içerik)
+        "unutma mk malı" içerik=f.read(okunacak_miktar)  """
+    
+   
+    

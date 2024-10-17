@@ -88,5 +88,7 @@ isdfl_library.books_append(book1)
 isdfl_library.books_append(book2)
 isdfl_library.books_append(book3)
 isdfl_library.books_append(book4)
-for user in isdfl_library.users:
-    print(user)
+for book in isdfl_library.books:
+    print(book)
+
+print(isdfl_library.writers_knowledge())
